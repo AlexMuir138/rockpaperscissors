@@ -46,12 +46,12 @@ namespace Intro
         if((_computerChoice) == "rock")
         {
           Console.WriteLine("Computer chooses rock");
-          Console.WriteLine("It's a tie!");
+          Console.WriteLine("It's a tie! Go again, I dare ya!");
         }
         else if (_computerChoice == "paper")
         {
           Console.WriteLine("Computer chooses paper");
-          Console.WriteLine("You lose sucka!");
+          Console.WriteLine("You lose stupid!");
         }
         else if (_computerChoice == "scissors")
         {
@@ -65,12 +65,12 @@ namespace Intro
         if((_computerChoice) == "paper")
         {
           Console.WriteLine("Computer chooses paper");
-          Console.WriteLine("It's a tie!");
+          Console.WriteLine("It's a tie! Go again, I dare ya!");
         }
         else if (_computerChoice == "scissors")
         {
           Console.WriteLine("Computer chooses scissors");
-          Console.WriteLine("You lose sucka!");
+          Console.WriteLine("You lose stupid!");
         }
         else if (_computerChoice == "rock")
         {
@@ -84,12 +84,12 @@ namespace Intro
         if((_computerChoice) == "scissors")
         {
           Console.WriteLine("Computer chooses scissors");
-          Console.WriteLine("It's a tie!");
+          Console.WriteLine("It's a tie! Go again, I dare ya!");
         }
         else if (_computerChoice == "rock")
         {
           Console.WriteLine("Computer chooses rock");
-          Console.WriteLine("You lose sucka!");
+          Console.WriteLine("You lose stupid!");
         }
         else if (_computerChoice == "paper")
         {
@@ -98,16 +98,17 @@ namespace Intro
         }
       
   }
-  Console.WriteLine("Play again fool? Y/N ");
+  Console.WriteLine("Play again fool? y/n ");
     string userChoice = Console.ReadLine();
-    if(userChoice == "Y")
+    if(userChoice == "y")
     {
       PlayGame();
     }
-    else if (userChoice == "N")
+    else if (userChoice == "n")
     {
       _playing = false;
-        sp.print("Fine, ya quitter!");
+        sp.print(@"Fine, ya quitter!
+        Also, I hate you...");
     }
 
   }
